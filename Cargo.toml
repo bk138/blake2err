@@ -3,14 +3,6 @@ name = "blake2err"
 version = "0.1.0"
 edition = "2018"
 
-
 [dependencies]
-async-std = "1.8.0"
-sanitize-filename = "0.2"
-jsonwebtoken = "7.1"
-casbin = "=2.0.5"
-# these rhai deps are needed for casbin v2.0.5
-rhai = "=0.19.14"
-rhai_codegen = "=0.3.3"
 argon2 = "0.3"
 rand_core = { version = "0.6", features = ["std"] }
